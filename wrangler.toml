@@ -12,7 +12,11 @@ class_name = "ServerConfig"
 
 [[migrations]]
 tag = "v1"
-new_sqlite_classes = ["VaultSyncServer", "ServerConfig"]
+new_sqlite_classes = ["VaultSyncServer"]
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["ServerConfig"]
 
 [[r2_buckets]]
 binding = "YAOS_BUCKET"
