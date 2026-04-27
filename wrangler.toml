@@ -22,5 +22,8 @@ new_sqlite_classes = ["ServerConfig"]
 binding = "YAOS_BUCKET"
 bucket_name = "nithish-yaos"
 
+[secrets]
+required = ["SYNC_TOKEN"]
+
 [observability.logs]
 enabled = true
